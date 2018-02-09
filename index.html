@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Layout Demo</title>
+	<link rel="stylesheet" href="assets/normalize.css">
+	<link rel="stylesheet" href="assets/screen.css">
+</head>
+<body class="sans">
+	<header class="bg-red flex items-center justify-between py-2 px text-white mb">
+		<h1> Layouts Demo</h1>
+		<nav>
+			<ul class="flex font-bold list-reset text-lg">
+				<li class="ml-2">
+					<a class="no-underline text-white" href="#"> Link One</a>
+				</li>
+				<li class="ml-2">
+					<a class="no-underline text-white" href="#"> Link Two</a>
+				</li>
+				<li class="ml-2">
+					<a class="no-underline text-white" href="#">Link Three</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="flex direction-reverse justify-around mb-2">
+		<div class="bg-blue h-4 w-25"></div>
+		<div class="bg-orange h-6 w-25"></div>
+		<div class="bg-red h-4 w-25"></div>
+	</div>
+
+	<div class="grid">
+		<div class="bg-blue h-6 flex justify-center text-white ">One</div>
+		<div class="bg-orange h-6 flex justify-center text-white ">Two</div>
+		<div class="bg-red h-6 flex justify-center text-white">Three</div>
+		<div class="bg-blue h-6 flex justify-center text-white">Four</div>
+		<div class="bg-orange h-6 flex justify-center text-white">Five</div>
+		<div class="bg-red h-6 flex justify-center text-white">Six</div>
+	</div>
+</body>
+</html>
